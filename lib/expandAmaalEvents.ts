@@ -19,12 +19,7 @@ export type StandardItem = {
   end_day: number | null;
   weekdays: string[] | null; // ["MON","THU"]
   text: string;
-  sections?: {
-    context_heading: string;
-    context_lines: string[];
-    amaal_heading: string;
-    amaal_bullets: { level: number; text: string }[];
-  };
+  sections?: Record<string, any> | null;
 };
 
 export type StandardAmaal = {
@@ -106,59 +101,23 @@ export function expandAmaalEvents(opts: {
 
     // Month-wide: single all-day spanning event
     if (item.rule_kind === "month_all" || item.rule_kind === "month_any_time") {
-      // If it's specifically "day" or "night", expand per-day
-      if (item.period === "day" || item.period === "night") {
-        for (let d = 1; d <= monthLen; d++) {
-          const gDay = hijriDayToGregorian(cfg, d, tz);
-
-          if (item.period === "day") {
-            const { fajr, maghrib } = getPrayerTimesAccurate(gDay, tz, coords);
-            events.push({
-              id: `${item.id}_day_${d}`,
-              title: `${item.hijri_month} ${getOrdinal(d)} Day`,
-              startISO: fajr.toISO()!,
-              endISO: maghrib.toISO()!,
-              allDay: false,
-              description: item.text,
-              sections: item.sections ?? null,
-              color: '#059669', // Green for day events
-            });
-          } else {
-            const gPrev = gDay.minus({ days: 1 });
-            const prev = getPrayerTimesAccurate(gPrev, tz, coords);
-            const curr = getPrayerTimesAccurate(gDay, tz, coords);
-            events.push({
-              id: `${item.id}_night_${d}`,
-              title: `${item.hijri_month} ${getOrdinal(d)} Night`,
-              startISO: prev.maghrib.toISO()!,
-              endISO: curr.fajr.toISO()!,
-              allDay: false,
-              description: item.text,
-              sections: item.sections ?? null,
-              color: '#2563eb', // Blue for night events
-            });
-          }
-        }
-      } else {
-        // day_and_night: keep as a single month-spanning all-day event
         const start = hijriDayToGregorian(cfg, 1, tz);
         const endExclusive = hijriDayToGregorian(cfg, monthLen, tz).plus({ days: 1 });
 
+        // Create a single month-spanning event
         events.push({
           id: item.id,
-          title: `${item.hijri_month}${item.label ? ' - ' + item.label : ''}`,
+          title: item.label || item.hijri_month,
           startISO: start.toISO()!,
           endISO: endExclusive.toISO()!,
           allDay: true,
           description: item.text,
           sections: item.sections ?? null,
-          color: '#8b5cf6', // Purple for all-day/month events
+          color: '#8b5cf6', // Purple for month-wide events
         });
+
+        continue;
       }
-
-      continue;
-    }
-
 
     // Weekday rules: expand across the month (day window)
     if (item.rule_kind === "weekday" || item.rule_kind === "weekday_multi") {
@@ -173,7 +132,7 @@ export function expandAmaalEvents(opts: {
 
         events.push({
           id: `${item.id}_d${d}`,
-          title: `${item.hijri_month} ${getOrdinal(d)} Day`,
+          title: item.label || `${getOrdinal(d)} Day`,
           startISO: fajr.toISO()!,
           endISO: maghrib.toISO()!,
           allDay: false,
@@ -193,21 +152,19 @@ export function expandAmaalEvents(opts: {
     const endDay =
       item.end_day == null ? monthLen : Math.max(startDay, Math.min(item.end_day, monthLen));
 
-    // NIGHT: Maghrib(prev greg day) → Fajr(current greg day)
+    // NIGHT: Show as all-day event on the specific Hijri day
+    // No time spans - just appears on that calendar date
     if (item.period === "night") {
       for (let d = startDay; d <= endDay; d++) {
         const gDay = hijriDayToGregorian(cfg, d, tz);
-        const gPrev = gDay.minus({ days: 1 });
-
-        const prev = getPrayerTimesAccurate(gPrev, tz, coords);
-        const curr = getPrayerTimesAccurate(gDay, tz, coords);
-
+        const eveDay = gDay.minus({ days: 1 });
+        // Night event shows as all-day on the calendar date it belongs to
         events.push({
           id: `${item.id}_night_${d}`,
-          title: `${item.hijri_month} ${getOrdinal(d)} Night`,
-          startISO: prev.maghrib.toISO()!,
-          endISO: curr.fajr.toISO()!,
-          allDay: false,
+          title: item.label || `${getOrdinal(d)} Night`,
+          startISO: eveDay.startOf("day").toISO()!,
+          endISO: eveDay.endOf("day").toISO()!,
+          allDay: true, // Changed to all-day so it doesn't span dates
           description: item.text,
           sections: item.sections ?? null,
           color: '#2563eb', // Blue for night events
@@ -224,7 +181,7 @@ export function expandAmaalEvents(opts: {
 
         events.push({
           id: `${item.id}_day_${d}`,
-          title: `${item.hijri_month} ${getOrdinal(d)} Day`,
+          title: item.label || `${getOrdinal(d)} Day`,
           startISO: fajr.toISO()!,
           endISO: maghrib.toISO()!,
           allDay: false,
@@ -241,7 +198,7 @@ export function expandAmaalEvents(opts: {
       const gDay = hijriDayToGregorian(cfg, d, tz);
       events.push({
         id: `${item.id}_allday_${d}`,
-        title: `${item.hijri_month} ${getOrdinal(d)} Day`,
+        title: item.label || `${getOrdinal(d)} Day`,
         startISO: gDay.startOf("day").toISO()!,
         endISO: gDay.plus({ days: 1 }).startOf("day").toISO()!,
         allDay: true,
@@ -252,5 +209,14 @@ export function expandAmaalEvents(opts: {
     }
   }
 
-  return events;
+  // REMOVE DUPLICATES (safety net)
+  const seen = new Set<string>();
+  const uniqueEvents = events.filter(ev => {
+    const key = `${ev.title}|${ev.startISO}|${ev.endISO}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+
+  return uniqueEvents;
 }

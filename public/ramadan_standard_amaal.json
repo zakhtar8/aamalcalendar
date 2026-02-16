@@ -1,0 +1,2692 @@
+{
+  "meta": {
+    "source": "Monthly Aamal ramadan.pdf",
+    "generated_on": "2026-02-16",
+    "timezone": "Asia/Karachi",
+    "notes": [
+      "content_markdown preserves bullets (● ○ ■) and headings as extracted from the PDF.",
+      "Weekly Quran recitations are included as weekly recurrence rules within Ramadan (Thursday night, Friday morning).",
+      "Daily recurring items (every day/night/sehri/iftar/general) are marked with freq=daily within Ramadan."
+    ]
+  },
+  "items": [
+    {
+      "id": "ramadan-quran-thursday-night",
+      "hijri_month": "Ramadan",
+      "label": "Thursday night — Quran recitation",
+      "text": "● (1) Surah al-Isra’ (Bani-Isra'il; No. 17),\n■ will join Imam al-Mahdi\n● (2) Surah al-Kahf (No. 18),\n■ will die as martyr and will be resurrected with and in the line of the martyrs (on the Resurrection Day).\n● (3) the three Surahs beginning with Ta-Sin,\n■ i.e. Surah al-Shu`ara' (No. 26), Surah al-Naml (No. 27), and Surah al-Qasas (No. 28),\n■ will be included with the intimate saints of Almighty Allah, will be made in the vicinity and under the protection of Him, will never be inflicted with misery in his worldly life, and will be given beyond his pleasure on the Resurrection Day.\n● (4) Surah al-Sajdah (No. 32),\n■ will be given his Record of Deeds in his right hand, will not be interrogated about his evildoings, and will be included with the companions of Muhammad and his Household—peace be upon them all.\n● (5) Surah Yasin (No. 36),\n● (6) Surah Sad (No. 38),\n● (7) Surah al-Ahqaf (No. 46),\n■ will be saved, by Almighty Allah, from terrors in the worldly life and will be secured from the horror of the Resurrection Day.\n● (8) Surah al-Waqi`ah (No. 56),\n■ will be loved by Almighty Allah, all people will be made to love him, will be saved from all miseries, poverty, neediness, and misfortunes in this worldly life, and will be joined to the companions of Imam `Ali Amir al-Mu'minin (as) because this Surah is ascribed to him\n● (9) Surah Fussilat (No. 41),\n● (10) Surah al-Dukhan (No. 44),\n● (11) Surah al-Tur (No. 52),\n● (12) Surah al-Qamar (No. 54),\n● (13) Surah al-Jumu`ah (No. 62).\n\n● If there is not enough time to recite all these Surahs, one may choose Surah al-Waqi`ah and those preceding it [in the aforesaid list].",
+      "period": "night",
+      "rule_kind": "weekday",
+      "start_day": null,
+      "end_day": null,
+      "weekdays": [
+        "THU"
+      ],
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "(1) Surah al-Isra’ (Bani-Isra'il; No. 17),"
+          },
+          {
+            "level": 3,
+            "text": "will join Imam al-Mahdi"
+          },
+          {
+            "level": 1,
+            "text": "(2) Surah al-Kahf (No. 18),"
+          },
+          {
+            "level": 3,
+            "text": "will die as martyr and will be resurrected with and in the line of the martyrs (on the Resurrection Day)."
+          },
+          {
+            "level": 1,
+            "text": "(3) the three Surahs beginning with Ta-Sin,"
+          },
+          {
+            "level": 3,
+            "text": "i.e. Surah al-Shu`ara' (No. 26), Surah al-Naml (No. 27), and Surah al-Qasas (No. 28),"
+          },
+          {
+            "level": 3,
+            "text": "will be included with the intimate saints of Almighty Allah, will be made in the vicinity and under the protection of Him, will never be inflicted with misery in his worldly life, and will be given beyond his pleasure on the Resurrection Day."
+          },
+          {
+            "level": 1,
+            "text": "(4) Surah al-Sajdah (No. 32),"
+          },
+          {
+            "level": 3,
+            "text": "will be given his Record of Deeds in his right hand, will not be interrogated about his evildoings, and will be included with the companions of Muhammad and his Household—peace be upon them all."
+          },
+          {
+            "level": 1,
+            "text": "(5) Surah Yasin (No. 36),"
+          },
+          {
+            "level": 1,
+            "text": "(6) Surah Sad (No. 38),"
+          },
+          {
+            "level": 1,
+            "text": "(7) Surah al-Ahqaf (No. 46),"
+          },
+          {
+            "level": 3,
+            "text": "will be saved, by Almighty Allah, from terrors in the worldly life and will be secured from the horror of the Resurrection Day."
+          },
+          {
+            "level": 1,
+            "text": "(8) Surah al-Waqi`ah (No. 56),"
+          },
+          {
+            "level": 3,
+            "text": "will be loved by Almighty Allah, all people will be made to love him, will be saved from all miseries, poverty, neediness, and misfortunes in this worldly life, and will be joined to the companions of Imam `Ali Amir al-Mu'minin (as) because this Surah is ascribed to him"
+          },
+          {
+            "level": 1,
+            "text": "(9) Surah Fussilat (No. 41),"
+          },
+          {
+            "level": 1,
+            "text": "(10) Surah al-Dukhan (No. 44),"
+          },
+          {
+            "level": 1,
+            "text": "(11) Surah al-Tur (No. 52),"
+          },
+          {
+            "level": 1,
+            "text": "(12) Surah al-Qamar (No. 54),"
+          },
+          {
+            "level": 1,
+            "text": "(13) Surah al-Jumu`ah (No. 62)."
+          },
+          {
+            "level": 1,
+            "text": "If there is not enough time to recite all these Surahs, one may choose Surah al-Waqi`ah and those preceding it [in the aforesaid list]."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-quran-friday-morning",
+      "hijri_month": "Ramadan",
+      "label": "Friday morning — Quran recitation",
+      "text": "● After fajr salat recite Sura Fatiha & Sura Tauheed once & then Sura Falaq & Sura Naas 7 times each\n● (7) Surah al-Ahqaf (No. 46),\n■ will be saved, by Almighty Allah, from terrors in the worldly life and will be secured from the horror of the Resurrection Day.\n● Surahs al-Nisa' (No. 4)\n● Surah Hud (No. 11)\n● al-Kahf (No.18)\n● al-Saffat (No. 37)\n● al-Rahman (No. 55\n● Surah al-Mu'minun (No. 23)\n● Ghusl Dua",
+      "period": "day",
+      "rule_kind": "weekday",
+      "start_day": null,
+      "end_day": null,
+      "weekdays": [
+        "FRI"
+      ],
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "After fajr salat recite Sura Fatiha & Sura Tauheed once & then Sura Falaq & Sura Naas 7 times each"
+          },
+          {
+            "level": 1,
+            "text": "(7) Surah al-Ahqaf (No. 46),"
+          },
+          {
+            "level": 3,
+            "text": "will be saved, by Almighty Allah, from terrors in the worldly life and will be secured from the horror of the Resurrection Day."
+          },
+          {
+            "level": 1,
+            "text": "Surahs al-Nisa' (No. 4)"
+          },
+          {
+            "level": 1,
+            "text": "Surah Hud (No. 11)"
+          },
+          {
+            "level": 1,
+            "text": "al-Kahf (No.18)"
+          },
+          {
+            "level": 1,
+            "text": "al-Saffat (No. 37)"
+          },
+          {
+            "level": 1,
+            "text": "al-Rahman (No. 55"
+          },
+          {
+            "level": 1,
+            "text": "Surah al-Mu'minun (No. 23)"
+          },
+          {
+            "level": 1,
+            "text": "Ghusl Dua"
+          }
+        ]
+      }
+    },
+  {
+  "id": "ramadan-general-day-night",
+  "hijri_month": "Ramadan",
+  "label": "General — Ramadan amaal",
+  "period": "day_and_night",
+  "rule_kind": "month_all",
+  "start_day": 1,
+  "end_day": 30,
+  "weekdays": null,
+  "text": "● Fast whole month for the love of allah and seeking to attain nearness to allah\n● Make much Dua/hajaat\n\nRecitations:\n● Read the Quran day and night\n○ give reward to imams as your reward will be twofold and will be raised in their company on DOJ\n● Recite surah Qadr x1,000 every night\n● Recite surah Dukhan x100 every night\n\nDhikr:\n● Ask for forgiveness (istighfar)\n● Takbir\n● Recite ‘la ilaha illalah’\n● Dhikr X 100 (MJ: Pg 565)\n● Salawat X100 or more\n\nSupplications:\n● Supplication after every wajib prayer - (MJ:Pg 469)\n● Supplication after every wajib prayer to rid sins - (MJ:Pg 470)\n● Short supplication that pardons sins of 40 years daily - (MJ: Pg 565)\n● After every nafila prayer recite Dua on (MJ:Pg 489)\n● Every day recite at all times - (MJ: Pg 564)\n\nPrayers:\n● Do nafila prayers\n● Offer x1000 rakaat\n○ First 20 days - 20 rakat as 10 prayers\n■ 4 prayers after maghrib + 6 prayers after isha\n■ Makes 400 rakat\n○ Last 10 days - 30 rakat as 15 prayers\n■ 4 prayers after maghrib + 11 prayers after isha\n■ Makes 300 rakat\n○ 3 laylatul Qadr nights - 100 rakat each\n■ makes 300 rakat",
+  "sections": {
+    "intro_bullets": [
+      { "level": 1, "text": "Fast whole month for the love of allah and seeking to attain nearness to allah" },
+      { "level": 1, "text": "Make much Dua/hajaat" }
+    ],
+    "recitations_heading": "Recitations",
+    "recitations_bullets": [
+      { "level": 1, "text": "Read the Quran day and night" },
+      { "level": 2, "text": "give reward to imams as your reward will be twofold and will be raised in their company on DOJ" },
+      { "level": 1, "text": "Recite surah Qadr x1,000 every night" },
+      { "level": 1, "text": "Recite surah Dukhan x100 every night" }
+    ],
+    "dhikr_heading": "Dhikr",
+    "dhikr_bullets": [
+      { "level": 1, "text": "Ask for forgiveness (istighfar)" },
+      { "level": 1, "text": "Takbir" },
+      { "level": 1, "text": "Recite ‘la ilaha illalah’" },
+      { "level": 1, "text": "Dhikr X 100 (MJ: Pg 565)" },
+      { "level": 1, "text": "Salawat X100 or more" }
+    ],
+    "supplications_heading": "Supplications",
+    "supplications_bullets": [
+      { "level": 1, "text": "Supplication after every wajib prayer - (MJ:Pg 469)" },
+      { "level": 1, "text": "Supplication after every wajib prayer to rid sins - (MJ:Pg 470)" },
+      { "level": 1, "text": "Short supplication that pardons sins of 40 years daily - (MJ: Pg 565)" },
+      { "level": 1, "text": "After every nafila prayer recite Dua on (MJ:Pg 489)" },
+      { "level": 1, "text": "Every day recite at all times - (MJ: Pg 564)" }
+    ],
+    "prayers_heading": "**Prayers**",
+    "prayers_bullets": [
+      { "level": 1, "text": "Do nafila prayers" },
+      { "level": 1, "text": "Offer x1000 rakaat" },
+      { "level": 2, "text": "First 20 days - 20 rakat as 10 prayers" },
+      { "level": 3, "text": "4 prayers after maghrib + 6 prayers after isha" },
+      { "level": 3, "text": "Makes 400 rakat" },
+      { "level": 2, "text": "Last 10 days - 30 rakat as 15 prayers" },
+      { "level": 3, "text": "4 prayers after maghrib + 11 prayers after isha" },
+      { "level": 3, "text": "Makes 300 rakat" },
+      { "level": 2, "text": "3 laylatul Qadr nights - 100 rakat each" },
+      { "level": 3, "text": "makes 300 rakat" }
+    ]
+  }
+},
+{
+  "id": "ramadan-every-night",
+  "hijri_month": "Ramadan",
+  "label": "Every night",
+  "period": "night",
+  "rule_kind": "month_all",
+  "start_day": 1,
+  "end_day": 30,
+  "weekdays": null,
+  "text": "Supplications:\n● Supplication of hajj after every maghrib prayer (mustahabb during the day also) - (MJ:Pg 471)\n● Supplication every night to rid sins - (MJ:Pg 476)\n● Dua Iftitah - (MJ:Pg 477)\n● Supplication every night - (MJ:Pg 485)\n\nPrayers:\n● Prayer that rids 70,000 sins\n○ 2 rakat prayer\n■ In each rakat recite:\n● Fatiha X1\n● Tawheed X3\n■ After completing prayer, say Dua + fourfold tasbihat 7 times on (MJ: Pg 488) + X10 salawat\n● When praying nafila prayers, if surah Fath is recited - one will remain secure throughout the year",
+  "sections": {
+    "supplications_heading": "Supplications",
+    "supplications_bullets": [
+      {
+        "level": 1,
+        "text": "Supplication of hajj after every maghrib prayer (mustahabb during the day also) - (MJ:Pg 471)"
+      },
+      {
+        "level": 1,
+        "text": "Supplication every night to rid sins - (MJ:Pg 476)"
+      },
+      {
+        "level": 1,
+        "text": "Dua Iftitah - (MJ:Pg 477)"
+      },
+      {
+        "level": 1,
+        "text": "Supplication every night - (MJ:Pg 485)"
+      }
+    ],
+    "prayers_heading": "Prayers",
+    "prayers_bullets": [
+      {
+        "level": 1,
+        "text": "Prayer that rids 70,000 sins"
+      },
+      {
+        "level": 2,
+        "text": "2 rakat prayer"
+      },
+      {
+        "level": 3,
+        "text": "In each rakat recite:"
+      },
+      {
+        "level": 4,
+        "text": "Fatiha X1"
+      },
+      {
+        "level": 4,
+        "text": "Tawheed X3"
+      },
+      {
+        "level": 3,
+        "text": "After completing prayer, say Dua + fourfold tasbihat 7 times on (MJ: Pg 488) + X10 salawat"
+      },
+      {
+        "level": 1,
+        "text": "When praying nafila prayers, if surah Fath is recited - one will remain secure throughout the year"
+      }
+    ]
+  }
+},
+{
+  "id": "ramadan-every-day",
+  "hijri_month": "Ramadan",
+  "label": "Every day",
+  "period": "day",
+  "rule_kind": "month_all",
+  "start_day": 1,
+  "end_day": 30,
+  "weekdays": null,
+  "text": "Supplications:\n● Long Dua (MJ: Pg 533 - 544)\n● Long 10 passage Dua starting with Subhallah (MJ: Pg 544 - 552)\n● Dua (MJ: Pg 553 - 559)\n● Dua (MJ: Pg 559 - 564)",
+  "sections": {
+    "supplications_heading": "Supplications",
+    "supplications_bullets": [
+      {
+        "level": 1,
+        "text": "Long Dua (MJ: Pg 533 - 544)"
+      },
+      {
+        "level": 1,
+        "text": "Long 10 passage Dua starting with Subhallah (MJ: Pg 544 - 552)"
+      },
+      {
+        "level": 1,
+        "text": "Dua (MJ: Pg 553 - 559)"
+      },
+      {
+        "level": 1,
+        "text": "Dua (MJ: Pg 559 - 564)"
+      }
+    ]
+  }
+},
+
+    {
+      "id": "ramadan-sehri-time",
+      "hijri_month": "Ramadan",
+      "label": "Sehri time",
+      "text": "● Recite surah Qadr\n○ Reciting surah before eating sehri and before breaking fast at iftar time - You get the reward of a martyr who had shed his blood in Allah’s way\n● When you eat sehri, ask for forgiveness - allah will forgive\n● Better not to miss sehri\n○ Eating dates at sehri is recommended\n● Recite Dua al-sahar (MJ: Pg 490) and (MJ: Pg 524)\n● Recite Dua Abu-Hamzah At-Thumali (MJ: Pg 493)",
+      "period": "day",
+      "rule_kind": "month_all",
+      "start_day": 1,
+      "end_day": 30,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Recite surah Qadr"
+          },
+          {
+            "level": 2,
+            "text": "Reciting surah before eating sehri and before breaking fast at iftar time - You get the reward of a martyr who had shed his blood in Allah’s way"
+          },
+          {
+            "level": 1,
+            "text": "When you eat sehri, ask for forgiveness - allah will forgive"
+          },
+          {
+            "level": 1,
+            "text": "Better not to miss sehri"
+          },
+          {
+            "level": 2,
+            "text": "Eating dates at sehri is recommended"
+          },
+          {
+            "level": 1,
+            "text": "Recite Dua al-sahar (MJ: Pg 490) and (MJ: Pg 524)"
+          },
+          {
+            "level": 1,
+            "text": "Recite Dua Abu-Hamzah At-Thumali (MJ: Pg 493)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-breaking-fast",
+      "hijri_month": "Ramadan",
+      "label": "Breaking fast",
+      "text": "**Before breaking fast:**\n\nاللَّهُمَّ لَكَ صُمْتُ، وَعَلَىٰ رِزْقِكَ أَفْطَرْتُ، وَعَلَيْكَ تَوَكَّلْتُ\n\n*O Allah, I have fasted for You, and I open my fast with the food provided by You, and I put my trust in You.*\n\n---\n\nبِسْمِ اللَّهِ، اللَّهُمَّ لَكَ صُمْنَا، وَعَلَىٰ رِزْقِكَ أَفْطَرْنَا، فَتَقَبَّلْ مِنَّا، إِنَّكَ أَنْتَ السَّمِيعُ الْعَلِيمُ\n\n*In the Name of Allah. O Allah, we have fasted for You, and we open it with the food provided by You. Accept it from us. Indeed, You are the All-Hearing, the All-Knowing.*\n\n---\n\n● Recite Surah al-Qadr\n● Give charity\n● Offer food to one who is fasting\n\n\n**With the first morsel in the mouth:**\n\nبِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nيَا وَاسِعَ الْمَغْفِرَةِ، اغْفِرْ لِي\n\n*In the Name of Allah, the All-Beneficent, the All-Merciful. O You who are vast in forgiveness, forgive me.*",
+      "period": "day",
+      "rule_kind": "month_all",
+      "start_day": 1,
+      "end_day": 30,
+      "weekdays": null,
+      "sections": {
+          "context_heading": "Before breaking fast",
+          "context_lines": [
+            "اللَّهُمَّ لَكَ صُمْتُ، وَعَلَىٰ رِزْقِكَ أَفْطَرْتُ، وَعَلَيْكَ تَوَكَّلْتُ",
+            "O Allah, I have fasted for You, and I open my fast with the food provided by You, and I put my trust in You.",
+            "بِسْمِ اللَّهِ، اللَّهُمَّ لَكَ صُمْنَا، وَعَلَىٰ رِزْقِكَ أَفْطَرْنَا، فَتَقَبَّلْ مِنَّا، إِنَّكَ أَنْتَ السَّمِيعُ الْعَلِيمُ",
+            "In the Name of Allah. O Allah, we have fasted for You, and we open it with the food provided by You. Accept it from us. Indeed, You are the All-Hearing, the All-Knowing."
+          ],
+          "amaal_heading": "With the first morsel in the mouth",
+          "amaal_bullets": [
+            { "level": 1, "text": "Recite Surah al-Qadr" },
+            { "level": 1, "text": "Give charity" },
+            { "level": 1, "text": "Offer food to one who is fasting" },
+            {
+              "level": 1,
+              "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nيَا وَاسِعَ الْمَغْفِرَةِ، اغْفِرْ لِي\n\nIn the Name of Allah, the All-Beneficent, the All-Merciful. O You who are vast in forgiveness, forgive me."
+            }
+          ]
+        }
+    },
+    {
+  "id": "ramadan-1-night",
+  "hijri_month": "Ramadan",
+  "label": "1st night",
+  "period": "night",
+  "rule_kind": "specific",
+  "start_day": 1,
+  "end_day": 1,
+  "weekdays": null,
+  "text": "General:\n● Spend time with spouse\n● Ghusl to remain secure from scabies until next Ramadan\n● Perform Ziyarah in Karbala at Imam Hussain’s shrine\n\nPrayers:\n● 4 rakat prayer as 2 prayers\n○ In each rakat recite:\n■ Fatiha X1\n■ Tawheed X15\n● 2 rakat prayer\n○ In each rakat recite:\n■ Fatiha X1\n■ Anaam X1\n○ Ask Allah to suffice and preserve one from every anxiety and pain until the end of the month\n\nSupplications:\n● Dua Jawshan Kabeer\n● Dua (MJ:Pg 459)\n● Dua after Maghrib with hands raised - (MJ:Pg 571)\n● 44th Supplication of Sahifat Kamilah\n● 2 Supplications (MJ:Pg 575)\n● Supplication of Hajj after Maghrib prayer - (MJ:Pg 471)",
+  "sections": {
+    "general_heading": "General",
+    "general_bullets": [
+      { "level": 1, "text": "Spend time with spouse" },
+      { "level": 1, "text": "Ghusl to remain secure from scabies until next Ramadan" },
+      { "level": 1, "text": "Perform Ziyarah in Karbala at Imam Hussain’s shrine" }
+    ],
+    "prayers_heading": "Prayers",
+    "prayers_bullets": [
+      { "level": 1, "text": "4 rakat prayer as 2 prayers" },
+      { "level": 2, "text": "In each rakat recite:" },
+      { "level": 3, "text": "Fatiha X1" },
+      { "level": 3, "text": "Tawheed X15" },
+      { "level": 1, "text": "2 rakat prayer" },
+      { "level": 2, "text": "In each rakat recite:" },
+      { "level": 3, "text": "Fatiha X1" },
+      { "level": 3, "text": "Anaam X1" },
+      { "level": 2, "text": "Ask Allah to suffice and preserve one from every anxiety and pain until the end of the month" }
+    ],
+    "supplications_heading": "Supplications",
+    "supplications_bullets": [
+      { "level": 1, "text": "Dua Jawshan Kabeer" },
+      { "level": 1, "text": "Dua (MJ:Pg 459)" },
+      { "level": 1, "text": "Dua after Maghrib with hands raised - (MJ:Pg 571)" },
+      { "level": 1, "text": "44th Supplication of Sahifat Kamilah" },
+      { "level": 1, "text": "2 Supplications (MJ:Pg 575)" },
+      { "level": 1, "text": "Supplication of Hajj after Maghrib prayer - (MJ:Pg 471)" }
+    ]
+  }
+},
+{
+  "id": "ramadan-1-day",
+  "hijri_month": "Ramadan",
+  "label": "1st day",
+  "period": "day",
+  "rule_kind": "specific",
+  "start_day": 1,
+  "end_day": 1,
+  "weekdays": null,
+  "text": "Supplications:\n● Dua (MJ:Pg 624)\n● When Fajr sets in - (MJ:Pg 578)\n● 44th Supplication of Sahifat Kamilah\n● To be protected from calamities that may befall during the year - (MJ:Pg 579)\n\nPrayers:\n● 2 rakat prayer\n○ In first rakat recite:\n■ Fatiha X1\n■ Fath X10\n○ In second rakat recite:\n■ Fatiha X1\n■ Any surah X1\n○ All evils kept away during the entire year",
+  "sections": {
+    "supplications_heading": "Supplications",
+    "supplications_bullets": [
+      {
+        "level": 1,
+        "text": "Dua (MJ:Pg 624)"
+      },
+      {
+        "level": 1,
+        "text": "When Fajr sets in - (MJ:Pg 578)"
+      },
+      {
+        "level": 1,
+        "text": "44th Supplication of Sahifat Kamilah"
+      },
+      {
+        "level": 1,
+        "text": "To be protected from calamities that may befall during the year - (MJ:Pg 579)"
+      }
+    ],
+    "prayers_heading": "Prayers",
+    "prayers_bullets": [
+      {
+        "level": 1,
+        "text": "2 rakat prayer"
+      },
+      {
+        "level": 2,
+        "text": "In first rakat recite:"
+      },
+      {
+        "level": 3,
+        "text": "Fatiha X1"
+      },
+      {
+        "level": 3,
+        "text": "Fath X10"
+      },
+      {
+        "level": 2,
+        "text": "In second rakat recite:"
+      },
+      {
+        "level": 3,
+        "text": "Fatiha X1"
+      },
+      {
+        "level": 3,
+        "text": "Any surah X1"
+      },
+      {
+        "level": 2,
+        "text": "All evils kept away during the entire year"
+      }
+    ]
+  }
+},
+
+
+    {
+      "id": "ramadan-2-night",
+      "hijri_month": "Ramadan",
+      "label": "2nd night",
+      "text": "● 4 rakat prayer as 2 prayer\n○ in each rakat recite;\n■ Fatiha X1\n■ Qadr X20",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 2,
+      "end_day": 2,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "4 rakat prayer as 2 prayer"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "Qadr X20"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-2-day",
+      "hijri_month": "Ramadan",
+      "label": "2nd day",
+      "text": "● Supplication - (MJ:Pg 624)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 2,
+      "end_day": 2,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 624)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-3-night",
+      "hijri_month": "Ramadan",
+      "label": "3rd night",
+      "text": "● 10 rakat prayer as 5 prayers\n○ in each rakat recite;\n■ Fatiha X1\n■ Tawheed X50",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 3,
+      "end_day": 3,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "10 rakat prayer as 5 prayers"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "Tawheed X50"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-3-day",
+      "hijri_month": "Ramadan",
+      "label": "3rd day",
+      "text": "● Supplication - (MJ:Pg 624)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 3,
+      "end_day": 3,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 624)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-4-night",
+      "hijri_month": "Ramadan",
+      "label": "4th night",
+      "text": "● 8 rakat prayer as 4 prayers\n○ in each rakat recite;\n■ Fatiha X1\n■ Qadr X20",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 4,
+      "end_day": 4,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "8 rakat prayer as 4 prayers"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "Qadr X20"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-4-day",
+      "hijri_month": "Ramadan",
+      "label": "4th day",
+      "text": "● Supplication - (MJ:Pg 624)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 4,
+      "end_day": 4,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 624)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-5-night",
+      "hijri_month": "Ramadan",
+      "label": "5th night",
+      "text": "● 2 rakat prayer\n○ in each rakat recite;\n■ Fatiha X1\n■ Tawheed X50\n● Salawāt to be said 100 times after the salam.",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 5,
+      "end_day": 5,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "2 rakat prayer"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "Tawheed X50"
+          },
+          {
+            "level": 1,
+            "text": "Salawāt to be said 100 times after the salam."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-5-day",
+      "hijri_month": "Ramadan",
+      "label": "5th day",
+      "text": "● Supplication - (MJ:Pg 625)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 5,
+      "end_day": 5,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 625)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-6-night",
+      "hijri_month": "Ramadan",
+      "label": "6th night",
+      "text": "● 4 rakat prayer as 2 prayers\n○ in each rakat recite;\n■ Fatiha X1\n■ mulk X1",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 6,
+      "end_day": 6,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "4 rakat prayer as 2 prayers"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "mulk X1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-6-day",
+      "hijri_month": "Ramadan",
+      "label": "6th day",
+      "text": "● Supplication - (MJ:Pg 625)\n● 2 rakat prayer\n○ in each rakat recite;\n■ Fatiha X1\n■ Tawheed X25",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 6,
+      "end_day": 6,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 625)"
+          },
+          {
+            "level": 1,
+            "text": "2 rakat prayer"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "Tawheed X25"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-7-night",
+      "hijri_month": "Ramadan",
+      "label": "7th night",
+      "text": "● 4 rakat prayer as 2 prayers\n○ in each rakat recite;\n■ Fatiha X1\n■ Qadr X13\n○ 10 mins total",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 7,
+      "end_day": 7,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "4 rakat prayer as 2 prayers"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "Qadr X13"
+          },
+          {
+            "level": 2,
+            "text": "10 mins total"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-7-day",
+      "hijri_month": "Ramadan",
+      "label": "7th day",
+      "text": "● Supplication - (MJ:Pg 625)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 7,
+      "end_day": 7,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 625)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-8-night",
+      "hijri_month": "Ramadan",
+      "label": "8th night",
+      "text": "● 2 rakat prayer\n○ in each rakat recite;\n■ Fatiha X1\n■ Tawheed X10\n● Subhān Allah to be said a 1,000 times after the salam.",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 8,
+      "end_day": 8,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "2 rakat prayer"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "Tawheed X10"
+          },
+          {
+            "level": 1,
+            "text": "Subhān Allah to be said a 1,000 times after the salam."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-8-day",
+      "hijri_month": "Ramadan",
+      "label": "8th day",
+      "text": "● Supplication - (MJ:Pg 625)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 8,
+      "end_day": 8,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 625)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-9-night",
+      "hijri_month": "Ramadan",
+      "label": "9th night",
+      "text": "● 6 rakat prayer as 3 prayers offered between the maghrib and isha prayers; - (12 mins)\n○ in each rakat recite;\n■ Fatiha X1\n■ Ayat al-Kursi X7\n● Salawāt is to be said 50 times after the prayers",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 9,
+      "end_day": 9,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "6 rakat prayer as 3 prayers offered between the maghrib and isha prayers; - (12 mins)"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "Ayat al-Kursi X7"
+          },
+          {
+            "level": 1,
+            "text": "Salawāt is to be said 50 times after the prayers"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-9-day",
+      "hijri_month": "Ramadan",
+      "label": "9th day",
+      "text": "● Supplication - (MJ:Pg 626)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 9,
+      "end_day": 9,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 626)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-10-night",
+      "hijri_month": "Ramadan",
+      "label": "10th night - Wafat of Sayeda Khadijah",
+      "text": "● Wafat of Sayeda Khadijah\nPrayers:\n● 20 rakat prayer as 10 prayers\n○ in each rakat recite;\n■ Fatiha X1\n■ Tawheed X30",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 10,
+      "end_day": 10,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "Prayers",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Wafat of Sayeda Khadijah"
+          },
+          {
+            "level": 1,
+            "text": "20 rakat prayer as 10 prayers"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "Tawheed X30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-10-day",
+      "hijri_month": "Ramadan",
+      "label": "10th day",
+      "text": "● Supplication - (MJ:Pg 626)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 10,
+      "end_day": 10,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 626)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-11-night",
+      "hijri_month": "Ramadan",
+      "label": "11th night",
+      "text": "● 2 rakat prayer\n○ in each rakat recite;\n■ Fatiha X1\n■ Kauthar X20",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 11,
+      "end_day": 11,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "2 rakat prayer"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "Kauthar X20"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-11-day",
+      "hijri_month": "Ramadan",
+      "label": "11th day",
+      "text": "● Supplication - (MJ:Pg 626)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 11,
+      "end_day": 11,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 626)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-12-night",
+      "hijri_month": "Ramadan",
+      "label": "12th night",
+      "text": "● 8 rakat prayer as 4 prayers\n○ in each rakat recite;\n■ Fatiha X1\n■ Qadr X30",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 12,
+      "end_day": 12,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "8 rakat prayer as 4 prayers"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "Qadr X30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-12-day",
+      "hijri_month": "Ramadan",
+      "label": "12th day",
+      "text": "● Supplication - (MJ:Pg 627)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 12,
+      "end_day": 12,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 627)"
+          }
+        ]
+      }
+    },
+    {
+  "id": "ramadan-13-night",
+  "hijri_month": "Ramadan",
+  "label": "13th night",
+  "period": "night",
+  "rule_kind": "specific",
+  "start_day": 13,
+  "end_day": 13,
+  "weekdays": null,
+  "text": "General:\n● Bath\n\nPrayers:\n● 4 rakat prayer as 2 prayers\n○ In each rakat recite:\n■ Fatiha X1\n■ Tawheed X25\n● 2 rakat prayer\n○ In each rakat recite:\n■ Fatiha X1\n■ Yaseen X1, Mulk X1, Tawheed X1 (in this order after Fatiha)",
+  "sections": {
+    "general_heading": "General",
+    "general_bullets": [
+      {
+        "level": 1,
+        "text": "Bath"
+      }
+    ],
+    "prayers_heading": "Prayers",
+    "prayers_bullets": [
+      {
+        "level": 1,
+        "text": "4 rakat prayer as 2 prayers"
+      },
+      {
+        "level": 2,
+        "text": "In each rakat recite:"
+      },
+      {
+        "level": 3,
+        "text": "Fatiha X1"
+      },
+      {
+        "level": 3,
+        "text": "Tawheed X25"
+      },
+      {
+        "level": 1,
+        "text": "2 rakat prayer"
+      },
+      {
+        "level": 2,
+        "text": "In each rakat recite:"
+      },
+      {
+        "level": 3,
+        "text": "Fatiha X1"
+      },
+      {
+        "level": 3,
+        "text": "Yaseen X1, Mulk X1, Tawheed X1 (in this order after Fatiha)"
+      }
+    ]
+  }
+},
+
+    {
+      "id": "ramadan-13-day",
+      "hijri_month": "Ramadan",
+      "label": "13th day",
+      "text": "● Supplication - (MJ:Pg 627)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 13,
+      "end_day": 13,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 627)"
+          }
+        ]
+      }
+    },
+    {
+  "id": "ramadan-14-night",
+  "hijri_month": "Ramadan",
+  "label": "14th night",
+  "period": "night",
+  "rule_kind": "specific",
+  "start_day": 14,
+  "end_day": 14,
+  "weekdays": null,
+  "text": "General:\n● Recite Dua Mujeer to be forgiven sins even if they are numerous\n\nPrayers:\n● 6 rakat prayer as 3 prayers\n○ In each rakat recite:\n■ Fatiha X1\n■ Zalzalah X30\n● 4 rakat prayer as 2 prayers\n○ In each rakat recite:\n■ Fatiha X1\n■ Yaseen X1, Mulk X1, Tawheed X1 (in this order after Fatiha)",
+  "sections": {
+    "general_heading": "General",
+    "general_bullets": [
+      {
+        "level": 1,
+        "text": "Recite Dua Mujeer to be forgiven sins even if they are numerous"
+      }
+    ],
+    "prayers_heading": "Prayers",
+    "prayers_bullets": [
+      {
+        "level": 1,
+        "text": "6 rakat prayer as 3 prayers"
+      },
+      {
+        "level": 2,
+        "text": "In each rakat recite:"
+      },
+      {
+        "level": 3,
+        "text": "Fatiha X1"
+      },
+      {
+        "level": 3,
+        "text": "Zalzalah X30"
+      },
+      {
+        "level": 1,
+        "text": "4 rakat prayer as 2 prayers"
+      },
+      {
+        "level": 2,
+        "text": "In each rakat recite:"
+      },
+      {
+        "level": 3,
+        "text": "Fatiha X1"
+      },
+      {
+        "level": 3,
+        "text": "Yaseen X1, Mulk X1, Tawheed X1 (in this order after Fatiha)"
+      }
+    ]
+  }
+},
+
+    {
+      "id": "ramadan-14-day",
+      "hijri_month": "Ramadan",
+      "label": "14th day",
+      "text": "● Supplication - (MJ:Pg 627)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 14,
+      "end_day": 14,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 627)"
+          }
+        ]
+      }
+    },
+    {
+  "id": "ramadan-15-night",
+  "hijri_month": "Ramadan",
+  "label": "15th night",
+  "period": "night",
+  "rule_kind": "specific",
+  "start_day": 15,
+  "end_day": 15,
+  "weekdays": null,
+  "text": "General:\n● Perform bath\n● Perform Ziyarah of Imam Hussain\n\nPrayers:\n● 4 rakat prayer as 2 prayers\n○ In first 2 rakat recite:\n■ Fatiha X1\n■ Tawheed X100\n○ In last 2 rakat recite:\n■ Fatiha X1\n■ Tawheed X50\n\n● 6 rakat prayer as 3 prayers\n○ In each rakat recite:\n■ Fatiha X1\n■ Yaseen X1, Mulk X1, Tawheed X1 (in this order after Fatiha)\n\n● 100 rakat prayer as 50 prayers\n○ In each rakat recite:\n■ Fatiha X1\n■ Tawheed X30\n○ Allah sends down 10 angels to guard against enemies from humans and jinn\n\n● At Imam Hussain's shrine next to the tomb:\n○ 10 rakat prayer as 5 prayers\n■ Invoke Allah’s protection from hellfire\n■ They will be delivered from the hellfire and leave the world with the good news of Paradise",
+  "sections": {
+    "general_heading": "General",
+    "general_bullets": [
+      {
+        "level": 1,
+        "text": "Perform bath"
+      },
+      {
+        "level": 1,
+        "text": "Perform Ziyarah of Imam Hussain"
+      }
+    ],
+    "prayers_heading": "Prayers",
+    "prayers_bullets": [
+      {
+        "level": 1,
+        "text": "4 rakat prayer as 2 prayers"
+      },
+      {
+        "level": 2,
+        "text": "In first 2 rakat recite:"
+      },
+      {
+        "level": 3,
+        "text": "Fatiha X1"
+      },
+      {
+        "level": 3,
+        "text": "Tawheed X100"
+      },
+      {
+        "level": 2,
+        "text": "In last 2 rakat recite:"
+      },
+      {
+        "level": 3,
+        "text": "Fatiha X1"
+      },
+      {
+        "level": 3,
+        "text": "Tawheed X50"
+      },
+      {
+        "level": 1,
+        "text": "6 rakat prayer as 3 prayers"
+      },
+      {
+        "level": 2,
+        "text": "In each rakat recite:"
+      },
+      {
+        "level": 3,
+        "text": "Fatiha X1"
+      },
+      {
+        "level": 3,
+        "text": "Yaseen X1, Mulk X1, Tawheed X1 (in this order after Fatiha)"
+      },
+      {
+        "level": 1,
+        "text": "100 rakat prayer as 50 prayers"
+      },
+      {
+        "level": 2,
+        "text": "In each rakat recite:"
+      },
+      {
+        "level": 3,
+        "text": "Fatiha X1"
+      },
+      {
+        "level": 3,
+        "text": "Tawheed X30"
+      },
+      {
+        "level": 2,
+        "text": "Allah sends down 10 angels to guard against enemies from humans and jinn"
+      },
+      {
+        "level": 1,
+        "text": "At Imam Hussain's shrine next to the tomb:"
+      },
+      {
+        "level": 2,
+        "text": "10 rakat prayer as 5 prayers"
+      },
+      {
+        "level": 3,
+        "text": "Invoke Allah’s protection from hellfire"
+      },
+      {
+        "level": 3,
+        "text": "They will be delivered from the hellfire and leave the world with the good news of Paradise"
+      }
+    ]
+  }
+},
+
+    {
+      "id": "ramadan-15-day",
+      "hijri_month": "Ramadan",
+      "label": "15th day - Wiladat of Imam Hasan",
+      "text": "● Supplication - (MJ:Pg 627)\n● give sadaqah and charity as it’s wiladat of Imam Hasan",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 15,
+      "end_day": 15,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 627)"
+          },
+          {
+            "level": 1,
+            "text": "give sadaqah and charity as it’s wiladat of Imam Hasan"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-16-night",
+      "hijri_month": "Ramadan",
+      "label": "16th night",
+      "text": "● 12 rakat prayer as 6 prayers;\n○ in each rakat recite;\n■ Fatiha X1\n■ Takathur X12",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 16,
+      "end_day": 16,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "12 rakat prayer as 6 prayers;"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "Takathur X12"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-16-day",
+      "hijri_month": "Ramadan",
+      "label": "16th day",
+      "text": "● Supplication - (MJ:Pg 628)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 16,
+      "end_day": 16,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 628)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-17-night",
+      "hijri_month": "Ramadan",
+      "label": "17th night - Battle of Badr",
+      "text": "● 2 rakat prayer\n○ in first rakat recite;\n■ Fatiha X1\n■ any surah X1\n○ in second rakat;\n■ Fatiha X1\n■ Tawheed X100\n○ Lã ilaha illallah to be said 100 times after the salam.\n● Give sadaqah and thank Allah\n○ Messenger of allah faced troops of infedels of Quraysh. battle of Badr took place the following day\n● perform bath and engage in worship",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 17,
+      "end_day": 17,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "2 rakat prayer"
+          },
+          {
+            "level": 2,
+            "text": "in first rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "any surah X1"
+          },
+          {
+            "level": 2,
+            "text": "in second rakat;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "Tawheed X100"
+          },
+          {
+            "level": 2,
+            "text": "Lã ilaha illallah to be said 100 times after the salam."
+          },
+          {
+            "level": 1,
+            "text": "Give sadaqah and thank Allah"
+          },
+          {
+            "level": 2,
+            "text": "Messenger of allah faced troops of infedels of Quraysh. battle of Badr took place the following day"
+          },
+          {
+            "level": 1,
+            "text": "perform bath and engage in worship"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-17-day",
+      "hijri_month": "Ramadan",
+      "label": "17th day",
+      "text": "● Supplication - (MJ:Pg 628)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 17,
+      "end_day": 17,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 628)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-18-night",
+      "hijri_month": "Ramadan",
+      "label": "18th night",
+      "text": "● 4 rakat prayer as 2 prayers\n○ in each rakat recite;\n■ Fatiha X1\n■ Kawthar X25",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 18,
+      "end_day": 18,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "4 rakat prayer as 2 prayers"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "Kawthar X25"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-18-day",
+      "hijri_month": "Ramadan",
+      "label": "18th day",
+      "text": "● Supplication - (MJ:Pg 628)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 18,
+      "end_day": 18,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 628)"
+          }
+        ]
+      }
+    },
+    {
+  "id": "ramadan-common-laylatul-qadr-amaal_night_19",
+  "hijri_month": "Ramadan",
+  "label": "Common Laylatul Qadr amaal",
+  "period": "night",
+  "rule_kind": "specific",
+  "start_day": 19,
+  "end_day": 19,
+  "weekdays": null,
+  "text": "General:\n● All affairs of the year are ordained on this night\n● Angels descend upon the earth and are presented to Imam Mahdi\n● All matters pertaining to each person are informed to Imam Mahdi\n● Sayeda Fatima used to advise her family to sleep and rest during the day to remain vigilant all night\n● Stay vigilant all night as sins are forgiven\n● Perform bath\n○ Preferably near sunset so the evening prayer is performed in the state of ghusl\n\nPrayers:\n● 2 rakat prayer\n○ In each rakat recite:\n■ Fatiha X1\n■ Tawheed X7\n○ After prayer recite: Astaghfirullah wa atubu ilayh\n\n● Place the Quran on the head and recite the Dua (MJ:Pg 590)\n\nSupplications:\n● Perform Ziyarah of Imam Hussain\n● Recite Dua (MJ:Pg 591)\n● Dua Jawshan Kabeer",
+  "sections": {
+    "general_heading": "General",
+    "general_bullets": [
+      { "level": 1, "text": "All affairs of the year are ordained on this night" },
+      { "level": 1, "text": "Angels descend upon the earth and are presented to Imam Mahdi" },
+      { "level": 1, "text": "All matters pertaining to each person are informed to Imam Mahdi" },
+      { "level": 1, "text": "Sayeda Fatima used to advise her family to sleep and rest during the day to remain vigilant all night" },
+      { "level": 1, "text": "Stay vigilant all night as sins are forgiven" },
+      { "level": 1, "text": "Perform bath" },
+      { "level": 2, "text": "Preferably near sunset so the evening prayer is performed in the state of ghusl" }
+    ],
+    "prayers_heading": "Prayers",
+    "prayers_bullets": [
+      { "level": 1, "text": "2 rakat prayer" },
+      { "level": 2, "text": "In each rakat recite:" },
+      { "level": 3, "text": "Fatiha X1" },
+      { "level": 3, "text": "Tawheed X7" },
+      { "level": 2, "text": "After prayer recite: Astaghfirullah wa atubu ilayh" },
+      { "level": 1, "text": "Place the Quran on the head and recite the Dua (MJ:Pg 590)" }
+    ],
+    "supplications_heading": "Supplications",
+    "supplications_bullets": [
+      { "level": 1, "text": "Perform Ziyarah of Imam Hussain" },
+      { "level": 1, "text": "Recite Dua (MJ:Pg 591)" },
+      { "level": 1, "text": "Dua Jawshan Kabeer" }
+    ]
+  }
+},
+
+    {
+      "id": "ramadan-common-laylatul-qadr-amaal_night_21",
+      "hijri_month": "Ramadan",
+      "label": "Common Laylatul Qadr amaal",
+      "text": "● All affairs of the year are ordained in this night.\n● Angels descend on earth and are presented to Imam Mahdi\n● All the matters pertaining to each person is informed to Imam Mahdi\n● Sayeda Fatima used to advise her family to sleep and rest during the day to remain vigil all night\n● Stay vigil all night as sins are forgiven\n● Perform bath\n○ Preferably near the time of sunset so evening prayer is performed with the bath\n\nPrayers:\n● 2 rakat prayer\n○ in each rakat recite;\n■ Fatiha X1\n■ Tawheed X7\n○ after prayer recite astagfirullah waatubu illahi\n\n● Place quran on the head and recite Dua on (MJ:Pg 590)\n\nSupplications:\n● Perform ziyarat of Imam Hussain\n● Recite Dua on (MJ:Pg 591)\n● Dua Jawshan Kabeer",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 21,
+      "end_day": 21,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "Prayers",
+        "context_lines": [],
+        "amaal_heading": "Supplications",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "All affairs of the year are ordained in this night."
+          },
+          {
+            "level": 1,
+            "text": "Angels descend on earth and are presented to Imam Mahdi"
+          },
+          {
+            "level": 1,
+            "text": "All the matters pertaining to each person is informed to Imam Mahdi"
+          },
+          {
+            "level": 1,
+            "text": "Sayeda Fatima used to advise her family to sleep and rest during the day to remain vigil all night"
+          },
+          {
+            "level": 1,
+            "text": "Stay vigil all night as sins are forgiven"
+          },
+          {
+            "level": 1,
+            "text": "Perform bath"
+          },
+          {
+            "level": 2,
+            "text": "Preferably near the time of sunset so evening prayer is performed with the bath"
+          },
+          {
+            "level": 1,
+            "text": "2 rakat prayer"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "Tawheed X7"
+          },
+          {
+            "level": 2,
+            "text": "after prayer recite astagfirullah waatubu illahi"
+          },
+          {
+            "level": 1,
+            "text": "Place quran on the head and recite Dua on (MJ:Pg 590)"
+          },
+          {
+            "level": 1,
+            "text": "Perform ziyarat of Imam Hussain"
+          },
+          {
+            "level": 1,
+            "text": "Recite Dua on (MJ:Pg 591)"
+          },
+          {
+            "level": 1,
+            "text": "Dua Jawshan Kabeer"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-common-laylatul-qadr-amaal_night_23",
+      "hijri_month": "Ramadan",
+      "label": "Common Laylatul Qadr amaal",
+      "text": "● All affairs of the year are ordained in this night.\n● Angels descend on earth and are presented to Imam Mahdi\n● All the matters pertaining to each person is informed to Imam Mahdi\n● Sayeda Fatima used to advise her family to sleep and rest during the day to remain vigil all night\n● Stay vigil all night as sins are forgiven\n● Perform bath\n○ Preferably near the time of sunset so evening prayer is performed with the bath\n\nPrayers:\n● 2 rakat prayer\n○ in each rakat recite;\n■ Fatiha X1\n■ Tawheed X7\n○ after prayer recite astagfirullah waatubu illahi\n\n● Place quran on the head and recite Dua on (MJ:Pg 590)\n\nSupplications:\n● Perform ziyarat of Imam Hussain\n● Recite Dua on (MJ:Pg 591)\n● Dua Jawshan Kabeer",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 23,
+      "end_day": 23,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "Prayers",
+        "context_lines": [],
+        "amaal_heading": "Supplications",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "All affairs of the year are ordained in this night."
+          },
+          {
+            "level": 1,
+            "text": "Angels descend on earth and are presented to Imam Mahdi"
+          },
+          {
+            "level": 1,
+            "text": "All the matters pertaining to each person is informed to Imam Mahdi"
+          },
+          {
+            "level": 1,
+            "text": "Sayeda Fatima used to advise her family to sleep and rest during the day to remain vigil all night"
+          },
+          {
+            "level": 1,
+            "text": "Stay vigil all night as sins are forgiven"
+          },
+          {
+            "level": 1,
+            "text": "Perform bath"
+          },
+          {
+            "level": 2,
+            "text": "Preferably near the time of sunset so evening prayer is performed with the bath"
+          },
+          {
+            "level": 1,
+            "text": "2 rakat prayer"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "Tawheed X7"
+          },
+          {
+            "level": 2,
+            "text": "after prayer recite astagfirullah waatubu illahi"
+          },
+          {
+            "level": 1,
+            "text": "Place quran on the head and recite Dua on (MJ:Pg 590)"
+          },
+          {
+            "level": 1,
+            "text": "Perform ziyarat of Imam Hussain"
+          },
+          {
+            "level": 1,
+            "text": "Recite Dua on (MJ:Pg 591)"
+          },
+          {
+            "level": 1,
+            "text": "Dua Jawshan Kabeer"
+          }
+        ]
+      }
+    },
+    {
+  "id": "ramadan-19-night",
+  "hijri_month": "Ramadan",
+  "label": "19th night",
+  "period": "night",
+  "rule_kind": "specific",
+  "start_day": 19,
+  "end_day": 19,
+  "weekdays": null,
+  "text": "Dhikr:\n● Astaghfirullah Rabbi wa atubu ilayh X100\n● Allahumma la‘n qatalata Amir al-Mu’mineen X100\n● Recite abundant Salawat as this is the night Imam Ali was martyred\n\nSupplications:\n● Recite (MJ:Pg 564) and make your hajaat\n\nPrayers:\n● 50 rakat prayer as 25 prayers\n○ In each rakat recite:\n■ Fatiha X1\n■ Zalzalah X1\n○ Note: What is meant is that Surat al-Zalzalah is recited once in each rakat, as it would be difficult to recite it 2500 times in one night\n\n● 2 rakat prayer\n○ In first rakat recite:\n■ Fatiha X1\n■ Tawheed X1\n○ In second rakat recite:\n■ Fatiha X1\n■ Qadr X1\n○ Then perform Tasbih\n○ Glorify Allah\n○ Pray for all believers\n○ Perform a long prostration with hajaat",
+  "sections": {
+    "dhikr_heading": "Dhikr",
+    "dhikr_bullets": [
+      { "level": 1, "text": "Astaghfirullah Rabbi wa atubu ilayh X100" },
+      { "level": 1, "text": "Allahumma la‘n qatalata Amir al-Mu’mineen X100" },
+      { "level": 1, "text": "Recite abundant Salawat as this is the night Imam Ali was martyred" }
+    ],
+    "supplications_heading": "Supplications",
+    "supplications_bullets": [
+      { "level": 1, "text": "Recite (MJ:Pg 564) and make your hajaat" }
+    ],
+    "prayers_heading": "Prayers",
+    "prayers_bullets": [
+      { "level": 1, "text": "50 rakat prayer as 25 prayers" },
+      { "level": 2, "text": "In each rakat recite:" },
+      { "level": 3, "text": "Fatiha X1" },
+      { "level": 3, "text": "Zalzalah X1" },
+      { "level": 2, "text": "Note: Surat al-Zalzalah is recited once in each rakat" },
+      { "level": 1, "text": "2 rakat prayer" },
+      { "level": 2, "text": "In first rakat recite:" },
+      { "level": 3, "text": "Fatiha X1" },
+      { "level": 3, "text": "Tawheed X1" },
+      { "level": 2, "text": "In second rakat recite:" },
+      { "level": 3, "text": "Fatiha X1" },
+      { "level": 3, "text": "Qadr X1" },
+      { "level": 2, "text": "Then perform Tasbih" },
+      { "level": 2, "text": "Glorify Allah" },
+      { "level": 2, "text": "Pray for all believers" },
+      { "level": 2, "text": "Perform a long prostration with hajaat" }
+    ]
+  }
+},
+
+    {
+      "id": "ramadan-19-day",
+      "hijri_month": "Ramadan",
+      "label": "19th day",
+      "text": "● Supplication - (MJ:Pg 628)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 19,
+      "end_day": 19,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 628)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-last-10-days",
+      "hijri_month": "Ramadan",
+      "label": "Last 10 days of Ramadan",
+      "text": "● Recite Dua Faraj MANY times",
+      "period": "day",
+      "rule_kind": "range",
+      "start_day": 21,
+      "end_day": 30,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Recite Dua Faraj MANY times"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-last-10-nights",
+      "hijri_month": "Ramadan",
+      "label": "Last 10 nights",
+      "text": "● Mustahab to take a bath on each of these nights\n● Do ihtikaf for devotions",
+      "period": "night",
+      "rule_kind": "range",
+      "start_day": 21,
+      "end_day": 30,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Mustahab to take a bath on each of these nights"
+          },
+          {
+            "level": 1,
+            "text": "Do ihtikaf for devotions"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-20-night",
+      "hijri_month": "Ramadan",
+      "label": "20th night",
+      "text": "● 8 rakat prayer as 4 prayers\n○ in each rakat recite;\n■ Fatiha X1\n■ any surah X1",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 20,
+      "end_day": 20,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "8 rakat prayer as 4 prayers"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "any surah X1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-20-day",
+      "hijri_month": "Ramadan",
+      "label": "20th day",
+      "text": "● Supplication - (MJ:Pg 629)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 20,
+      "end_day": 20,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 629)"
+          }
+        ]
+      }
+    },
+    {
+  "id": "ramadan-21-night",
+  "hijri_month": "Ramadan",
+  "label": "21st night",
+  "period": "night",
+  "rule_kind": "specific",
+  "start_day": 21,
+  "end_day": 21,
+  "weekdays": null,
+  "text": "General:\n● Spend the night discussing matters related to religion\n\nPrayers:\n● 8 rakat prayer as 4 prayers\n○ In each rakat recite:\n■ Fatiha X1\n■ Any surah X1\n\nSupplications:\n● Dua (MJ:Pg 595)",
+  "sections": {
+    "general_heading": "General",
+    "general_bullets": [
+      {
+        "level": 1,
+        "text": "Spend the night discussing matters related to religion"
+      }
+    ],
+    "prayers_heading": "Prayers",
+    "prayers_bullets": [
+      {
+        "level": 1,
+        "text": "8 rakat prayer as 4 prayers"
+      },
+      {
+        "level": 2,
+        "text": "In each rakat recite:"
+      },
+      {
+        "level": 3,
+        "text": "Fatiha X1"
+      },
+      {
+        "level": 3,
+        "text": "Any surah X1"
+      }
+    ],
+    "supplications_heading": "Supplications",
+    "supplications_bullets": [
+      {
+        "level": 1,
+        "text": "Dua (MJ:Pg 595)"
+      }
+    ]
+  }
+},
+
+    {
+      "id": "ramadan-21-day",
+      "hijri_month": "Ramadan",
+      "label": "21st day - Martyrdom of imam ali",
+      "text": "● Martyrdom of imam ali\n● Supplication - (MJ:Pg 629)\n● Perform ziyarah of Imam Ali",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 21,
+      "end_day": 21,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Martyrdom of imam ali"
+          },
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 629)"
+          },
+          {
+            "level": 1,
+            "text": "Perform ziyarah of Imam Ali"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-22-night",
+      "hijri_month": "Ramadan",
+      "label": "22nd night",
+      "text": "● 8 rakat prayer as 4 prayers\n○ in each rakat recite;\n■ Fatiha X1\n■ any surah X1",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 22,
+      "end_day": 22,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "8 rakat prayer as 4 prayers"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "any surah X1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-22-day",
+      "hijri_month": "Ramadan",
+      "label": "22nd day",
+      "text": "● Supplication - (MJ:Pg 629)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 22,
+      "end_day": 22,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 629)"
+          }
+        ]
+      }
+    },
+   {
+  "id": "ramadan-23-night",
+  "hijri_month": "Ramadan",
+  "label": "23rd night",
+  "period": "night",
+  "rule_kind": "specific",
+  "start_day": 23,
+  "end_day": 23,
+  "weekdays": null,
+  "text": "● All days after this night are equal to Laylatul Qadr\n\nQuran recitations:\n● Recite surah Ankabut and Rum - will be among people of paradise\n● Surah Dukhan\n● Surah Qadr X1000 times\n\nSupplications:\n● Ziyarah of Imam Hussain\n● Dua on Pg 298\n● Duas on Pg 599\n● Duas + make hajat on Pg 599\n● Recite Dua Tawba\n● Recite daa Makrim al Akhlaq\n● Recite supplications of sahifa al kamilah\n\nPrayers:\n● 100 rakat prayer as 50 prayers\n○ in each rakat recite;\n■ Fatiha X1\n■ Tawheed X10\n● 8 rakat prayer as 4 prayers\n○ in each rakat recite;\n■ Fatiha X1\n■ any surah X1",
+  "sections": {
+    "context_heading": "General / Quran recitations / Supplications",
+    "context_lines": [
+      "General: All days after this night are equal to Laylatul Qadr",
+      "Quran recitations: Recite surah Ankabut and Rum - will be among people of paradise",
+      "Quran recitations: Surah Dukhan",
+      "Quran recitations: Surah Qadr X1000 times",
+      "Supplications: Ziyarah of Imam Hussain",
+      "Supplications: Dua on Pg 298",
+      "Supplications: Duas on Pg 599",
+      "Supplications: Duas + make hajat on Pg 599",
+      "Supplications: Recite Dua Tawba",
+      "Supplications: Recite daa Makrim al Akhlaq",
+      "Supplications: Recite supplications of sahifa al kamilah"
+    ],
+    "amaal_heading": "Prayers",
+    "amaal_bullets": [
+      {
+        "level": 1,
+        "text": "100 rakat prayer as 50 prayers"
+      },
+      {
+        "level": 2,
+        "text": "in each rakat recite;"
+      },
+      {
+        "level": 3,
+        "text": "Fatiha X1"
+      },
+      {
+        "level": 3,
+        "text": "Tawheed X10"
+      },
+      {
+        "level": 1,
+        "text": "8 rakat prayer as 4 prayers"
+      },
+      {
+        "level": 2,
+        "text": "in each rakat recite;"
+      },
+      {
+        "level": 3,
+        "text": "Fatiha X1"
+      },
+      {
+        "level": 3,
+        "text": "any surah X1"
+      }
+    ]
+  }
+},
+
+
+    {
+      "id": "ramadan-23-day",
+      "hijri_month": "Ramadan",
+      "label": "23rd day",
+      "text": "● Supplication - (MJ:Pg 629)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 23,
+      "end_day": 23,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 629)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-24-night",
+      "hijri_month": "Ramadan",
+      "label": "24th night",
+      "text": "● 8 rakat prayer as 4 prayers\n○ in each rakat recite;\n■ Fatiha X1\n■ any surah X1",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 24,
+      "end_day": 24,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "8 rakat prayer as 4 prayers"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "any surah X1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-24-day",
+      "hijri_month": "Ramadan",
+      "label": "24th day",
+      "text": "● Supplication - (MJ:Pg 630)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 24,
+      "end_day": 24,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 630)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-25-night",
+      "hijri_month": "Ramadan",
+      "label": "25th night",
+      "text": "● 8 rakat prayer as 4 prayers\n○ in each rakat recite;\n■ Fatiha X1\n■ Tawheed X10",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 25,
+      "end_day": 25,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "8 rakat prayer as 4 prayers"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "Tawheed X10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-25-day",
+      "hijri_month": "Ramadan",
+      "label": "25th day",
+      "text": "● Supplication - (MJ:Pg 630)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 25,
+      "end_day": 25,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 630)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-26-night",
+      "hijri_month": "Ramadan",
+      "label": "26th night",
+      "text": "● 8 rakat prayer as 4 prayers\n○ in each rakat recite;\n■ Fatiha X1\n■ Tawheed X100",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 26,
+      "end_day": 26,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "8 rakat prayer as 4 prayers"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "Tawheed X100"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-26-day",
+      "hijri_month": "Ramadan",
+      "label": "26th day",
+      "text": "● Supplication - (MJ:Pg 630)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 26,
+      "end_day": 26,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 630)"
+          }
+        ]
+      }
+    },
+    {
+  "id": "ramadan-27-night",
+  "hijri_month": "Ramadan",
+  "label": "27th night",
+  "period": "night",
+  "rule_kind": "specific",
+  "start_day": 27,
+  "end_day": 27,
+  "weekdays": null,
+  "text": "Supplications:\n● Dua (MJ:Pg 602)\n\nPrayers:\n● 4 rakat prayer as 2 prayers\n○ In each rakat recite:\n■ Fatiha X1\n■ Surah Mulk X1 OR Tawheed X20",
+  "sections": {
+    "supplications_heading": "Supplications",
+    "supplications_bullets": [
+      {
+        "level": 1,
+        "text": "Dua (MJ:Pg 602)"
+      }
+    ],
+    "prayers_heading": "Prayers",
+    "prayers_bullets": [
+      {
+        "level": 1,
+        "text": "4 rakat prayer as 2 prayers"
+      },
+      {
+        "level": 2,
+        "text": "In each rakat recite:"
+      },
+      {
+        "level": 3,
+        "text": "Fatiha X1"
+      },
+      {
+        "level": 3,
+        "text": "Surah Mulk X1 OR Tawheed X20"
+      }
+    ]
+  }
+},
+
+    {
+      "id": "ramadan-27-day",
+      "hijri_month": "Ramadan",
+      "label": "27th day",
+      "text": "● Supplication - (MJ:Pg 630)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 27,
+      "end_day": 27,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 630)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-28-night",
+      "hijri_month": "Ramadan",
+      "label": "28th night",
+      "text": "● 6 rakat prayer as 3 prayers\n○ in each rakat recite;\n■ Fatiha X1\n■ ayat al-Kursi, al-Tawhid and al-Kawthar X100 in this order after Fatiha\n○ Salawāt to be said X100 times after the prayers\n\n○ The compiler says: According to what I have found, the prayer for the 28th night is six rakahs with each of Ayat al-Kursi, Sürat a-Kawthar and al-Tawhid recited 10 times after al-Fatihah in each rakah. Then salawat (Allahumma salli alà Muhammadi\"w wa ali Muham-mad) is to be said 100 times after the prayers.",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 28,
+      "end_day": 28,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "6 rakat prayer as 3 prayers"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "ayat al-Kursi, al-Tawhid and al-Kawthar X100 in this order after Fatiha"
+          },
+          {
+            "level": 2,
+            "text": "Salawāt to be said X100 times after the prayers"
+          },
+          {
+            "level": 2,
+            "text": "The compiler says: According to what I have found, the prayer for the 28th night is six rakahs with each of Ayat al-Kursi, Sürat a-Kawthar and al-Tawhid recited 10 times after al-Fatihah in each rakah. Then salawat (Allahumma salli alà Muhammadi\"w wa ali Muham-mad) is to be said 100 times after the prayers."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-28-day",
+      "hijri_month": "Ramadan",
+      "label": "28th day",
+      "text": "● Supplication - (MJ:Pg 631)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 28,
+      "end_day": 28,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 631)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-29-night",
+      "hijri_month": "Ramadan",
+      "label": "29th night",
+      "text": "● 2 rakat prayer\n○ in each rakat recite;\n■ Fatiha X1\n■ Tawheed X20\n● Do 30th night amaal too (incase this is last night of Ramadan)",
+      "period": "night",
+      "rule_kind": "specific",
+      "start_day": 29,
+      "end_day": 29,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "2 rakat prayer"
+          },
+          {
+            "level": 2,
+            "text": "in each rakat recite;"
+          },
+          {
+            "level": 3,
+            "text": "Fatiha X1"
+          },
+          {
+            "level": 3,
+            "text": "Tawheed X20"
+          },
+          {
+            "level": 1,
+            "text": "Do 30th night amaal too (incase this is last night of Ramadan)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ramadan-29-day",
+      "hijri_month": "Ramadan",
+      "label": "29th day",
+      "text": "● Supplication - (MJ:Pg 631)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 29,
+      "end_day": 29,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 631)"
+          }
+        ]
+      }
+    },
+    {
+  "id": "ramadan-30-night",
+  "hijri_month": "Ramadan",
+  "label": "30th night / last night of Ramadan",
+  "period": "night",
+  "rule_kind": "specific",
+  "start_day": 30,
+  "end_day": 30,
+  "weekdays": null,
+  "text": "General:\n● Perform bath\n\nPrayers:\n● 12 rakat prayer as 6 prayers\n○ In each rakat recite:\n■ Fatiha X1\n■ Tawheed X20\n○ Recite Salawat X100 after completing the prayers\n\nRecitations:\n● Perform Ziyarah of Imam Hussain\n● Recite Surah Anaam, Surah Kahf, and Surah Yaseen\n● Recite Astaghfirullah wa atubu ilayh X100\n● Dua (MJ:Pg 602)\n● Dua (MJ:Pg 613) under section (3)\n● Farewell supplication (MJ:Pg 632)\n● 2 Duas (MJ:Pg 603)",
+  "sections": {
+    "general_heading": "General",
+    "general_bullets": [
+      {
+        "level": 1,
+        "text": "Perform bath"
+      }
+    ],
+    "prayers_heading": "Prayers",
+    "prayers_bullets": [
+      {
+        "level": 1,
+        "text": "12 rakat prayer as 6 prayers"
+      },
+      {
+        "level": 2,
+        "text": "In each rakat recite:"
+      },
+      {
+        "level": 3,
+        "text": "Fatiha X1"
+      },
+      {
+        "level": 3,
+        "text": "Tawheed X20"
+      },
+      {
+        "level": 2,
+        "text": "Recite Salawat X100 after completing the prayers"
+      }
+    ],
+    "recitations_heading": "Recitations",
+    "recitations_bullets": [
+      {
+        "level": 1,
+        "text": "Perform Ziyarah of Imam Hussain"
+      },
+      {
+        "level": 1,
+        "text": "Recite Surah Anaam, Surah Kahf, and Surah Yaseen"
+      },
+      {
+        "level": 1,
+        "text": "Recite Astaghfirullah wa atubu ilayh X100"
+      },
+      {
+        "level": 1,
+        "text": "Dua (MJ:Pg 602)"
+      },
+      {
+        "level": 1,
+        "text": "Dua (MJ:Pg 613) under section (3)"
+      },
+      {
+        "level": 1,
+        "text": "Farewell supplication (MJ:Pg 632)"
+      },
+      {
+        "level": 1,
+        "text": "2 Duas (MJ:Pg 603)"
+      }
+    ]
+  }
+},
+
+    {
+      "id": "ramadan-30-day",
+      "hijri_month": "Ramadan",
+      "label": "30th day",
+      "text": "● Supplication - (MJ:Pg 631)",
+      "period": "day",
+      "rule_kind": "specific",
+      "start_day": 30,
+      "end_day": 30,
+      "weekdays": null,
+      "sections": {
+        "context_heading": "",
+        "context_lines": [],
+        "amaal_heading": "",
+        "amaal_bullets": [
+          {
+            "level": 1,
+            "text": "Supplication - (MJ:Pg 631)"
+          }
+        ]
+      }
+    }
+  ]
+}
