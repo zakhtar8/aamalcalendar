@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import interactionPlugin from "@fullcalendar/interaction";
 import { expandAmaalEvents, MonthConfig, StandardAmaal } from "@/lib/expandAmaalEvents";
+
 
 const HIJRI_MONTHS = [
   // "Muharram",
@@ -76,7 +77,7 @@ function renderNestedBullets(bullets: { level: number; text: string }[]) {
     return "■";
   };
 
-  const renderList = (nodes: any[]): JSX.Element => (
+  const renderList = (nodes: any[]): React.ReactElement => (
     <div style={{ marginTop: 6 }}>
       {nodes.map((n: any, idx: number) => (
         <div key={idx} style={{ marginTop: 8 }}>
