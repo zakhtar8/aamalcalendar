@@ -40,18 +40,14 @@ function normMonth(s: string) {
 
 type OpenEvent = {
   title: string;
-  sections: null | {
-    context_heading: string;
-    context_lines: string[];
-    amaal_heading: string;
-    amaal_bullets: { level: number; text: string }[];
-  };
+  sections: Record<string, any> | null;
   description: string;
   startISO: string;
   endISO: string;
   allDay: boolean;
 };
 
+// --- Nested bullet renderer ---
 // --- Nested bullet renderer ---
 function renderNestedBullets(bullets: { level: number; text: string }[]) {
   if (!bullets || bullets.length === 0) return null;
@@ -80,23 +76,188 @@ function renderNestedBullets(bullets: { level: number; text: string }[]) {
     return "■";
   };
 
-  const renderList = (nodes: any[]) => (
+  const renderList = (nodes: any[]): JSX.Element => (
     <div style={{ marginTop: 6 }}>
       {nodes.map((n: any, idx: number) => (
         <div key={idx} style={{ marginTop: 8 }}>
           <div style={{ display: "flex", gap: 10, alignItems: "flex-start" }}>
-            <div className="bulletMarker" style={{ width: 18, flex: "0 0 18px", color: "#333" }}>
+            <div
+              className="bulletMarker"
+              style={{ width: 18, flex: "0 0 18px", color: "#333", marginTop: 1 }}
+            >
               {markerFor(n.level)}
             </div>
             <div style={{ whiteSpace: "pre-wrap", lineHeight: 1.5, fontSize: 14 }}>{n.text}</div>
           </div>
-          {n.children?.length > 0 && <div style={{ marginLeft: 28 }}>{renderList(n.children)}</div>}
+          {n.children?.length > 0 && (
+            <div style={{ marginLeft: 28 }}>{renderList(n.children)}</div>
+          )}
         </div>
       ))}
     </div>
   );
 
   return renderList(root.children);
+}
+
+// Section colour palette — cycles through greens/blues/purples
+const SECTION_COLORS = [
+  { bg: "#f0fdf4", border: "#059669", text: "#065f46", heading: "#059669" },
+  { bg: "#eff6ff", border: "#2563eb", text: "#1e40af", heading: "#2563eb" },
+  { bg: "#faf5ff", border: "#7c3aed", text: "#4c1d95", heading: "#7c3aed" },
+  { bg: "#fff7ed", border: "#ea580c", text: "#7c2d12", heading: "#ea580c" },
+];
+
+const SECTION_ICONS: Record<string, string> = {
+  general: "📋",
+  intro: "📋",
+  context: "ℹ️",
+  amaal: "🤲",
+  recitations: "📖",
+  dhikr: "🔤",
+  supplications: "🤲",
+  prayers: "🕌",
+};
+
+function getSectionIcon(key: string): string {
+  const lower = key.toLowerCase();
+  for (const [k, icon] of Object.entries(SECTION_ICONS)) {
+    if (lower.includes(k)) return icon;
+  }
+  return "•";
+}
+
+// --- Generic multi-section renderer ---
+// Handles any combination of *_heading + *_bullets pairs,
+// context_lines, and intro_bullets found in the JSON.
+function renderSections(sections: Record<string, any>, fallbackDescription: string) {
+  // Collect ordered sections by scanning keys for *_heading markers.
+  // For each heading key we look for a matching *_bullets or *_lines key.
+  const rendered: JSX.Element[] = [];
+  let colorIdx = 0;
+
+  // Build an ordered list of section descriptors from the keys.
+  // Strategy: iterate keys in insertion order; when we hit a *_heading
+  // (or a standalone bullets/lines key with no heading), emit a block.
+  const keys = Object.keys(sections);
+  const visited = new Set<string>();
+
+  // Pass 1: heading-anchored sections
+  for (const key of keys) {
+    if (!key.endsWith("_heading")) continue;
+    visited.add(key);
+
+    const prefix = key.slice(0, -"_heading".length); // e.g. "prayers"
+    const headingText = (sections[key] as string || "").replace(/\*+/g, "").trim();
+    const bulletsKey = `${prefix}_bullets`;
+    const linesKey = `${prefix}_lines`;
+    const bullets: { level: number; text: string }[] | undefined = sections[bulletsKey];
+    const lines: string[] | undefined = sections[linesKey];
+
+    if (bulletsKey in sections) visited.add(bulletsKey);
+    if (linesKey in sections) visited.add(linesKey);
+
+    const color = SECTION_COLORS[colorIdx % SECTION_COLORS.length];
+    colorIdx++;
+
+    const icon = getSectionIcon(prefix);
+    const label = headingText || prefix.replace(/_/g, " ");
+
+    // context_lines-style: render as plain blue quote lines
+    if (lines && lines.length > 0 && (!bullets || bullets.length === 0)) {
+      rendered.push(
+        <div key={key}>
+          {label && (
+            <div style={{
+              fontWeight: 800, fontSize: 13, marginBottom: 8,
+              color: color.heading, textTransform: "uppercase",
+              letterSpacing: "0.5px", display: "flex", alignItems: "center", gap: 6,
+            }}>
+              <span>{icon}</span> {label}
+            </div>
+          )}
+          <div style={{ background: color.bg, padding: 14, borderRadius: 10, borderLeft: `4px solid ${color.border}` }}>
+            {lines.map((line, i) => (
+              <div key={i} style={{
+                marginBottom: i < lines.length - 1 ? 10 : 0,
+                lineHeight: 1.7, color: color.text, fontSize: 14,
+              }}>
+                • {line}
+              </div>
+            ))}
+          </div>
+        </div>
+      );
+      continue;
+    }
+
+    if (!bullets || bullets.length === 0) continue;
+
+    rendered.push(
+      <div key={key}>
+        {label && (
+          <div style={{
+            fontWeight: 800, fontSize: 13, marginBottom: 8,
+            color: color.heading, textTransform: "uppercase",
+            letterSpacing: "0.5px", display: "flex", alignItems: "center", gap: 6,
+          }}>
+            <span>{icon}</span> {label}
+          </div>
+        )}
+        <div style={{ background: color.bg, padding: 14, borderRadius: 10, borderLeft: `4px solid ${color.border}` }}>
+          {renderNestedBullets(bullets)}
+        </div>
+      </div>
+    );
+  }
+
+  // Pass 2: unanchored bullet/line arrays (no matching heading key)
+  for (const key of keys) {
+    if (visited.has(key)) continue;
+
+    if (key.endsWith("_bullets")) {
+      visited.add(key);
+      const bullets: { level: number; text: string }[] = sections[key];
+      if (!bullets || bullets.length === 0) continue;
+      const prefix = key.slice(0, -"_bullets".length);
+      const color = SECTION_COLORS[colorIdx % SECTION_COLORS.length];
+      colorIdx++;
+      const icon = getSectionIcon(prefix);
+      const label = prefix.replace(/_/g, " ");
+
+      rendered.push(
+        <div key={key}>
+          {label && (
+            <div style={{
+              fontWeight: 800, fontSize: 13, marginBottom: 8,
+              color: color.heading, textTransform: "uppercase",
+              letterSpacing: "0.5px", display: "flex", alignItems: "center", gap: 6,
+            }}>
+              <span>{icon}</span> {label}
+            </div>
+          )}
+          <div style={{ background: color.bg, padding: 14, borderRadius: 10, borderLeft: `4px solid ${color.border}` }}>
+            {renderNestedBullets(bullets)}
+          </div>
+        </div>
+      );
+    }
+  }
+
+  // Fallback: nothing rendered, show raw description text
+  if (rendered.length === 0 && fallbackDescription) {
+    return (
+      <pre style={{
+        whiteSpace: "pre-wrap", lineHeight: 1.7, fontFamily: "inherit",
+        background: "#f0fdf4", padding: 16, borderRadius: 10,
+        borderLeft: "4px solid #059669", margin: 0, fontSize: 14, color: "#065f46",
+      }}>
+        {fallbackDescription}
+      </pre>
+    );
+  }
+
+  return <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>{rendered}</div>;
 }
 
 function formatTime(isoString: string, timezone: string): string {
@@ -508,134 +669,27 @@ export default function Page() {
                 )}
               </div>
 
-              <div className="modalBody" style={{ padding: 20, overflowY: "auto", flex: 1 }}>
-                {openEvent.sections ? (
-                  <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
-                    {/* Context Section */}
-                    {openEvent.sections.context_lines && openEvent.sections.context_lines.length > 0 && (
-                      <div>
-                        <div
-                          style={{
-                            fontWeight: 800,
-                            fontSize: 14,
-                            marginBottom: 10,
-                            color: "#2563eb",
-                            textTransform: "uppercase",
-                            letterSpacing: "0.5px",
-                            display: "flex",
-                            alignItems: "center",
-                            gap: 6,
-                          }}
-                        >
-                          <span>ℹ️</span> {openEvent.sections.context_heading || "Context"}
-                        </div>
-                        <div style={{ background: "#eff6ff", padding: 16, borderRadius: 10, borderLeft: "4px solid #2563eb" }}>
-                          {openEvent.sections.context_lines.map((line: string, idx: number) => (
-                            <div
-                              key={idx}
-                              style={{
-                                marginBottom: idx < openEvent.sections!.context_lines.length - 1 ? 10 : 0,
-                                lineHeight: 1.7,
-                                color: "#1e40af",
-                                fontSize: 14,
-                              }}
-                            >
-                              • {line}
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-
-                    {/* Amaal Section */}
-                    {openEvent.sections.amaal_bullets && openEvent.sections.amaal_bullets.length > 0 ? (
-                      <div>
-                        <div
-                          style={{
-                            fontWeight: 800,
-                            fontSize: 14,
-                            marginBottom: 10,
-                            color: "#059669",
-                            textTransform: "uppercase",
-                            letterSpacing: "0.5px",
-                            display: "flex",
-                            alignItems: "center",
-                            gap: 6,
-                          }}
-                        >
-                          <span>🤲</span> {openEvent.sections.amaal_heading || "Amaal"}
-                        </div>
-                        <div style={{ background: "#f0fdf4", padding: 16, borderRadius: 10, borderLeft: "4px solid #059669" }}>
-                          {renderNestedBullets(openEvent.sections.amaal_bullets)}
-                        </div>
-                      </div>
-                    ) : (
-                      openEvent.description && (
-                        <div>
-                          <div
-                            style={{
-                              fontWeight: 800,
-                              fontSize: 14,
-                              marginBottom: 10,
-                              color: "#059669",
-                              textTransform: "uppercase",
-                              letterSpacing: "0.5px",
-                              display: "flex",
-                              alignItems: "center",
-                              gap: 6,
-                            }}
-                          >
-                            <span>🤲</span> Amaal
-                          </div>
-                          <pre
-                            style={{
-                              whiteSpace: "pre-wrap",
-                              lineHeight: 1.7,
-                              fontFamily: "inherit",
-                              background: "#f0fdf4",
-                              padding: 16,
-                              borderRadius: 10,
-                              borderLeft: "4px solid #059669",
-                              margin: 0,
-                              fontSize: 14,
-                              color: "#065f46",
-                            }}
-                          >
-                            {openEvent.description}
-                          </pre>
-                        </div>
-                      )
-                    )}
-                  </div>
-                ) : (
-                  <pre
-                    style={{
-                      whiteSpace: "pre-wrap",
-                      marginTop: 10,
-                      lineHeight: 1.7,
-                      fontFamily: "inherit",
-                      fontSize: 14,
-                      color: "#334155",
-                    }}
-                  >
-                    {openEvent.description}
-                  </pre>
-                )}
+             <div className="modalBody" style={{ padding: 20, overflowY: "auto", flex: 1 }}>
+                {openEvent.sections
+                  ? renderSections(openEvent.sections, openEvent.description)
+                  : (
+                    <pre style={{
+                      whiteSpace: "pre-wrap", marginTop: 10, lineHeight: 1.7,
+                      fontFamily: "inherit", fontSize: 14, color: "#334155",
+                    }}>
+                      {openEvent.description}
+                    </pre>
+                  )
+                }
 
                 <div style={{ display: "flex", justifyContent: "flex-end", marginTop: 24, paddingTop: 16, borderTop: "2px solid #f1f5f9" }}>
                   <button
                     className="closeBtn"
                     onClick={() => setOpenEvent(null)}
                     style={{
-                      padding: "12px 24px",
-                      fontWeight: 700,
-                      background: "#1e293b",
-                      color: "white",
-                      border: "none",
-                      borderRadius: 10,
-                      cursor: "pointer",
-                      fontSize: 14,
-                      transition: "background 0.2s",
+                      padding: "12px 24px", fontWeight: 700, background: "#1e293b",
+                      color: "white", border: "none", borderRadius: 10,
+                      cursor: "pointer", fontSize: 14, transition: "background 0.2s",
                     }}
                     onMouseOver={(e) => (e.currentTarget.style.background = "#0f172a")}
                     onMouseOut={(e) => (e.currentTarget.style.background = "#1e293b")}
@@ -644,6 +698,7 @@ export default function Page() {
                   </button>
                 </div>
               </div>
+
             </div>
           </div>
         )}
