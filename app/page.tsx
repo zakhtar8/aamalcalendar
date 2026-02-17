@@ -134,7 +134,7 @@ function getSectionIcon(key: string): string {
 function renderSections(sections: Record<string, any>, fallbackDescription: string) {
   // Collect ordered sections by scanning keys for *_heading markers.
   // For each heading key we look for a matching *_bullets or *_lines key.
-  const rendered: JSX.Element[] = [];
+  const rendered: React.ReactElement[] = [];
   let colorIdx = 0;
 
   // Build an ordered list of section descriptors from the keys.
