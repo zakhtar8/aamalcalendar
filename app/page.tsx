@@ -706,7 +706,7 @@ export default function Page() {
       </div>
 
       {/* Mobile + FullCalendar responsive tweaks */}
-      <style jsx global>{`
+ <style jsx global>{`
         * {
           box-sizing: border-box;
         }
@@ -751,6 +751,105 @@ export default function Page() {
         }
         .fc .fc-event {
           cursor: pointer;
+        }
+
+        /* ── Dark mode overrides ───────────────────────────────────────────
+           iOS/Android dark mode makes FullCalendar text go gray because
+           the browser rewrites color:inherit and link colors automatically.
+           Force everything to stay readable in both modes.
+        ──────────────────────────────────────────────────────────────────── */
+        @media (prefers-color-scheme: dark) {
+          /* Page background */
+          .pageRoot {
+            background: linear-gradient(to bottom, #0f172a, #1e293b) !important;
+          }
+
+          /* All white cards → dark surface */
+          .card {
+            background: #1e293b !important;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.4) !important;
+          }
+
+          /* Labels, headings inside cards */
+          .pageSubtitle { color: #94a3b8 !important; }
+
+          /* FullCalendar shell */
+          .fc {
+            color: #e2e8f0 !important;
+          }
+          .fc .fc-scrollgrid,
+          .fc .fc-scrollgrid td,
+          .fc .fc-scrollgrid th {
+            border-color: #334155 !important;
+          }
+
+          /* Day-of-week header (Mon, Tue …) */
+          .fc .fc-col-header-cell-cushion {
+            color: #cbd5e1 !important;
+            -webkit-text-fill-color: #cbd5e1 !important;
+            text-decoration: none !important;
+          }
+
+          /* Day number in each cell */
+          .fc .fc-daygrid-day-number {
+            color: #e2e8f0 !important;
+            -webkit-text-fill-color: #e2e8f0 !important;
+            text-decoration: none !important;
+          }
+
+          /* Today's date */
+          .fc .fc-day-today {
+            background: rgba(5, 150, 105, 0.15) !important;
+          }
+          .fc .fc-day-today .fc-daygrid-day-number {
+            color: #34d399 !important;
+            -webkit-text-fill-color: #34d399 !important;
+            font-weight: 800 !important;
+          }
+
+          /* Toolbar title (month + year) and buttons */
+          .fc .fc-toolbar-title {
+            color: #f1f5f9 !important;
+            -webkit-text-fill-color: #f1f5f9 !important;
+          }
+          .fc .fc-button {
+            background: #334155 !important;
+            border-color: #475569 !important;
+            color: #e2e8f0 !important;
+            -webkit-text-fill-color: #e2e8f0 !important;
+          }
+          .fc .fc-button-active,
+          .fc .fc-button:focus {
+            background: #059669 !important;
+            border-color: #059669 !important;
+          }
+
+          /* Event pill text — always white on coloured bg */
+          .fc .fc-event-title,
+          .fc .fc-event-time {
+            color: #ffffff !important;
+            -webkit-text-fill-color: #ffffff !important;
+          }
+
+          /* "More" link (+2 more) */
+          .fc .fc-daygrid-more-link {
+            color: #7dd3fc !important;
+            -webkit-text-fill-color: #7dd3fc !important;
+          }
+
+          /* Settings / config inputs & selects */
+          .controlSelect,
+          .controlInput {
+            background: #0f172a !important;
+            color: #e2e8f0 !important;
+            border-color: #475569 !important;
+          }
+
+          /* Month config card inner panels */
+          .monthCard {
+            background: #0f172a !important;
+            border-color: #334155 !important;
+          }
         }
 
         /* Better touch targets */
@@ -987,6 +1086,26 @@ export default function Page() {
           .settingsRow {
             flex-wrap: wrap !important;
           }
+             @media (prefers-color-scheme: dark) {
+    .modalBox,
+    .modalHeader,
+    .modalBody,
+    .headerCard,
+    .legendCard,
+    .settingsCard,
+    .hijriCard,
+    .monthCard,
+    .calendarCard,
+    .modalBox *,
+    .headerCard *,
+    .legendCard *,
+    .settingsCard *,
+    .hijriCard *,
+    .monthCard *,
+    .calendarCard * {
+      color: #111827 !important;
+      -webkit-text-fill-color: #111827 !important;
+    }
         }
       `}</style>
     </div>
