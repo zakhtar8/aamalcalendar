@@ -304,7 +304,47 @@ function pickEventColor(title: string, fallback?: string) {
 }
 
 export default function Page() {
+
+  const LOCATION_CACHE_KEY = "amaal:selectedLocation";
+
   const [selectedLocation, setSelectedLocation] = useState<"qatar" | "toronto">("qatar");
+  const [savedLocation, setSavedLocation] = useState<"qatar" | "toronto">("qatar");
+
+  // Load cached location (if any) on first render
+  useEffect(() => {
+    try {
+      const cached =
+        typeof window !== "undefined" ? window.localStorage.getItem(LOCATION_CACHE_KEY) : null;
+
+      if (cached === "qatar" || cached === "toronto") {
+        setSelectedLocation(cached);
+        setSavedLocation(cached);
+      }
+    } catch {
+      // ignore (privacy mode / blocked storage)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // Auto-update display timezone when location changes
+  useEffect(() => {
+    setDisplayTimezone(selectedLocation);
+  }, [selectedLocation]);
+
+  const isLocationDirty = selectedLocation !== savedLocation;
+
+  function saveSelectedLocation() {
+    try {
+      window.localStorage.setItem(LOCATION_CACHE_KEY, selectedLocation);
+      setSavedLocation(selectedLocation);
+    } catch {
+      alert(
+        "Couldn't save your location (storage blocked by browser settings).\n\nTip: enable site storage / cookies, then try again."
+      );
+    }
+  }
+
+  // const [selectedLocation, setSelectedLocation] = useState<"qatar" | "toronto">("qatar");
   const [displayTimezone, setDisplayTimezone] = useState<"qatar" | "toronto">("qatar");
   const [amaal, setAmaal] = useState<StandardAmaal | null>(null);
   const [openEvent, setOpenEvent] = useState<OpenEvent | null>(null);
@@ -445,24 +485,46 @@ export default function Page() {
               <label style={{ display: "block", fontSize: 13, fontWeight: 600, marginBottom: 6, color: "#475569" }}>
                 📍 Your Location (for prayer time calculations):
               </label>
-              <select
-                className="controlSelect"
-                value={selectedLocation}
-                onChange={(e) => setSelectedLocation(e.target.value as any)}
-                style={{
-                  width: "100%",
-                  maxWidth: 280,
-                  padding: "10px 12px",
-                  borderRadius: 8,
-                  border: "1px solid #cbd5e1",
-                  fontSize: 14,
-                  cursor: "pointer",
-                  background: "white",
-                }}
-              >
-                <option value="qatar">🇶🇦 Qatar</option>
-                <option value="toronto">🇨🇦 Toronto, Canada</option>
-              </select>
+              <div style={{ display: "flex", gap: 10, alignItems: "center", flexWrap: "wrap" }}>
+                <select
+                  className="controlSelect"
+                  value={selectedLocation}
+                  onChange={(e) => setSelectedLocation(e.target.value as any)}
+                  style={{
+                    width: "100%",
+                    maxWidth: 280,
+                    padding: "10px 12px",
+                    borderRadius: 8,
+                    border: "1px solid #cbd5e1",
+                    fontSize: 14,
+                    cursor: "pointer",
+                    background: "white",
+                  }}
+                >
+                  <option value="qatar">🇶🇦 Qatar</option>
+                  <option value="toronto">🇨🇦 Toronto, Canada</option>
+                </select>
+
+                <button
+                  type="button"
+                  onClick={saveSelectedLocation}
+                  disabled={!isLocationDirty}
+                  title={isLocationDirty ? "Save this location" : "Saved"}
+                  style={{
+                    padding: "10px 12px",
+                    borderRadius: 8,
+                    border: "1px solid #cbd5e1",
+                    fontSize: 14,
+                    fontWeight: 700,
+                    cursor: isLocationDirty ? "pointer" : "not-allowed",
+                    background: isLocationDirty ? "#0ea5e9" : "#e2e8f0",
+                    color: isLocationDirty ? "white" : "#64748b",
+                    opacity: isLocationDirty ? 1 : 0.9,
+                  }}
+                >
+                  {isLocationDirty ? "Save" : "Saved"}
+                </button>
+              </div>
             </div>
 
             <div className="settingsRight" style={{ minWidth: 220 }}>
